@@ -2,12 +2,12 @@
 class Kratos < Formula
   desc ""
   homepage "https://www.ory.sh"
-  version "0.0.1-alpha.9"
+  version "0.0.1-alpha.10+oryOS.15"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/ory/kratos/releases/download/v0.0.1-alpha.9/kratos_0.0.1-alpha.9_macos_amd64.tar.gz"
-    sha256 "49f9d8e3b7be18077e988b79e86146f23018154da3cad32df56868f784cc110a"
+    url "https://github.com/ory/kratos/releases/download/v0.0.1-alpha.10+oryOS.15/kratos_0.0.1-alpha.10+oryOS.15_macos_amd64.tar.gz"
+    sha256 "8c516f3b40121f8c2ca6877664f3f2cef4bff4cec6c6b85af89053b2a714a785"
   elsif OS.linux?
   end
 
