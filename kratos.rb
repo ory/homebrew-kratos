@@ -17,6 +17,5 @@ class Kratos < Formula
 
   def install
     bin.install "kratos"
-    bin.install "kratos"
   end
 end
