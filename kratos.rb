@@ -5,16 +5,16 @@
 class Kratos < Formula
   desc ""
   homepage "https://www.ory.sh"
-  version "0.7.1-alpha.1"
+  version "0.7.3-alpha.1"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/ory/kratos/releases/download/v0.7.1-alpha.1/kratos_0.7.1-alpha.1-sqlite_macos_64bit.tar.gz"
-    sha256 "64305f7958cbbe0e3698e3b4cd7a8d502c157b56c283b6737971da61a47dd2f3"
+    url "https://github.com/ory/kratos/releases/download/v0.7.3-alpha.1/kratos_0.7.3-alpha.1-sqlite_macos_64bit.tar.gz"
+    sha256 "d348328c3330e19eb4d510eac4d59410e664cc81456330f4093a6ff7ed549c21"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/ory/kratos/releases/download/v0.7.1-alpha.1/kratos_0.7.1-alpha.1-sqlite_linux_64bit.tar.gz"
-    sha256 "47668f6a5885964dec65e625c7e1126355b9b3a31e74570ab081d348ae3bd18e"
+    url "https://github.com/ory/kratos/releases/download/v0.7.3-alpha.1/kratos_0.7.3-alpha.1-sqlite_linux_64bit.tar.gz"
+    sha256 "cef4646982cfb831344edc9e707ba5d565a53732d025197d787460c8e00e25d2"
   end
 
   def install
